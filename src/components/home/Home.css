@@ -1,0 +1,88 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.search{
+    margin-top: 20px;
+}
+
+.search input[type = "text"]{
+    width: 55vw;
+    height: 4.6vh;
+    padding-left: 15px;
+    border-radius: 15px 0px 0px 15px;
+    border-right: 0px;
+    font-size: 13px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+button{
+    height: 5.2vh;
+    width: 20vw;
+    border-radius: 0px 15px 15px 0px;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    button{
+        border: 1px solid black;
+        width: 20vw;
+        height: 5.2vh;
+    }
+
+    .search input[type = "text"]{
+        height: 4.6vh;
+        width: 55vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    button{
+        border: 1px solid black;
+        width: 20vw;
+        height: 5.2vh;
+    }
+
+    .search input[type = "text"]{
+        height: 4.6vh;
+        width: 55vw;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    button{
+        border: 1px solid black;
+        width: 20vw;
+        height: 5.2vh;
+    }
+
+    .search input[type = "text"]{
+        height: 4.6vh;
+        width: 55vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .search{
+        display: flex;
+        align-items: center;
+    }
+
+    button{
+        border: 1px solid black;
+        width: 20vw;
+        height: 5.2vh;
+    }
+
+    .search input[type = "text"]{
+        height: 4.6vh;
+        width: 55vw;
+    }
+}

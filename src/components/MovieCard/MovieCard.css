@@ -1,0 +1,103 @@
+.poster{
+    margin: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 42vh;
+    width: 15vw;
+}
+
+.moviecard{
+    margin-top: 10px;
+    height: 53vh;
+    width: 19.5vw;
+}
+
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.poster:hover{
+    height: 44vh;
+    width: 17vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    .moviecard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50vh;
+        width: 30vw;
+    }
+
+    .poster{
+        height: 40vh;
+        width: 27vw;
+    }
+
+    .poster:hover{
+        height: 44vh;
+        width: 29vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .moviecard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 55vh;
+        width: 35vw;
+    }
+
+    .poster{
+        height: 45vh;
+        width: 30vw;
+    }
+
+    .poster:hover{
+        height: 48vh;
+        width: 35vw;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .moviecard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 52vh;
+        width: 35vw;
+    }
+
+    .poster{
+        height: 45vh;
+        width: 30vw;
+    }
+
+    .poster:hover{
+        height: 48vh;
+        width: 35vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .moviecard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70vh;
+        width: 70vw;
+    }
+
+    .poster{
+        height: 60vh;
+        width: 65vw;
+    }
+
+    .poster:hover{
+        height: 65vh;
+        width: 68vw;
+    }
+}
